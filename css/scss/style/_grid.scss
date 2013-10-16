@@ -1,0 +1,342 @@
+.row {
+	float: left;
+	width: 100%;
+}
+
+.whole,
+.half,
+.third,
+.two-thirds,
+.fourth,
+.three-fourths {
+	float: left;
+	position: relative;
+	padding: 0 1em;
+}
+
+.whole {
+	width: 100%;
+}
+
+.half {
+	width: 50%;
+}
+
+.third {
+	width: 33.33333%;
+}
+
+.two-thirds {
+	width: 66.66666%;
+}
+
+.fourth {
+	width: 25%;
+}
+
+.three-fourths {
+	width: 75%;
+}
+
+// @media only screen and (min-width: 959px) {}
+// @media only screen and (min-width: 768px) and (max-width: 959px) {}
+// @media only screen and (max-width: 767px) {}
+// @media only screen and (min-width: 480px) and (max-width: 767px){}
+
+@media only screen and (min-width: 959px) {
+
+	.whole-lg,
+	.half-lg,
+	.third-lg,
+	.two-thirds-lg,
+	.fourth-lg,
+	.three-fourths-lg {
+		padding: 0 1em;
+	}	
+
+	.whole-lg {
+		width: 100%;
+	}
+
+	.half-lg {
+		width: 50%;
+	}
+
+	.third-lg {
+		width: 33.33333%;
+	}
+
+	.two-thirds-lg {
+		width: 66.66666%;
+	}
+
+	.fourth-lg {
+		width: 25%;
+	}
+
+	.three-fourths-lg {
+		width: 75%;
+	}
+
+	.push-half-lg,
+	.push-third-lg,
+	.push-two-thirds-lg,
+	.push-fourth-lg,
+	.push-three-fourths-lg,
+	.pull-half-lg,
+	.pull-third-lg,
+	.pull-two-thirds-lg,
+	.pull-fourth-lg,
+	.pull-three-fourths-lg {
+		position: relative;
+	}
+
+	.push-half-lg,
+	.push-third-lg,
+	.push-two-thirds-lg,
+	.push-fourth-lg,
+	.push-three-fourths-lg {
+		right: auto;
+	}
+
+	.pull-half-lg,
+	.pull-third-lg,
+	.pull-two-thirds-lg,
+	.pull-fourth-lg,
+	.pull-three-fourths-lg {
+		left: auto;
+	}
+
+	.push-half-lg {
+		left: 50%;
+	}
+
+	.pull-half-lg {
+		right: 50%;
+	}
+
+	.push-third-lg {
+		left: 33.33333%;
+	}
+
+	.pull-third-lg {
+		right: 33.33333%;
+	}
+
+	.push-fourth-lg {
+		left: 25%;
+	}
+
+	.pull-fourth-lg {
+		right: 25%;
+	}
+
+	.push-three-fourths-lg {
+		left: 75%;
+	}
+
+	.pull-three-fourths-lg {
+		right: 75%;
+	}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	.whole-md,
+	.half-md,
+	.third-md,
+	.two-thirds-md,
+	.fourth-md,
+	.three-fourths-md {
+		padding: 0 1em;
+	}	
+
+	.whole-md {
+		width: 100%;
+	}
+
+	.half-md {
+		width: 50%;
+	}
+
+	.third-md {
+		width: 33.33333%;
+	}
+
+	.two-thirds-md {
+		width: 66.66666%;
+	}
+
+	.fourth-md {
+		width: 25%;
+	}
+
+	.three-fourths-md {
+		width: 75%;
+	}
+
+	.push-half-md,
+	.push-third-md,
+	.push-two-thirds-md,
+	.push-fourth-md,
+	.push-three-fourths-md,
+	.pull-half-md,
+	.pull-third-md,
+	.pull-two-thirds-md,
+	.pull-fourth-md,
+	.pull-three-fourths-md {
+		position: relative;
+	}
+
+	.push-half-md,
+	.push-third-md,
+	.push-two-thirds-md,
+	.push-fourth-md,
+	.push-three-fourths-md {
+		right: auto;
+	}
+
+	.pull-half-md,
+	.pull-third-md,
+	.pull-two-thirds-md,
+	.pull-fourth-md,
+	.pull-three-fourths-md {
+		left: auto;
+	}
+
+	.push-half-md {
+		left: 50%;
+	}
+
+	.pull-half-md {
+		right: 50%;
+	}
+
+	.push-third-md {
+		left: 33.33333%;
+	}
+
+	.pull-third-md {
+		right: 33.33333%;
+	}
+
+	.push-fourth-md {
+		left: 25%;
+	}
+
+	.pull-fourth-md {
+		right: 25%;
+	}
+
+	.push-three-fourths-md {
+		left: 75%;
+	}
+
+	.pull-three-fourths-md {
+		right: 75%;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+  
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+	.whole-sm,
+	.half-sm,
+	.third-sm,
+	.two-thirds-sm,
+	.fourth-sm,
+	.three-fourths-sm {
+		padding: 0 1em;
+	}	
+
+	.whole-sm {
+		width: 100%;
+	}
+
+	.half-sm {
+		width: 50%;
+	}
+
+	.third-sm {
+		width: 33.33333%;
+	}
+
+	.two-thirds-sm {
+		width: 66.66666%;
+	}
+
+	.fourth-sm {
+		width: 25%;
+	}
+
+	.three-fourths-sm {
+		width: 75%;
+	}
+
+	.push-half-sm,
+	.push-third-sm,
+	.push-two-thirds-sm,
+	.push-fourth-sm,
+	.push-three-fourths-sm,
+	.pull-half-sm,
+	.pull-third-sm,
+	.pull-two-thirds-sm,
+	.pull-fourth-sm,
+	.pull-three-fourths-sm {
+		position: relative;
+	}
+
+	.push-half-sm,
+	.push-third-sm,
+	.push-two-thirds-sm,
+	.push-fourth-sm,
+	.push-three-fourths-sm {
+		right: auto;
+	}
+
+	.pull-half-sm,
+	.pull-third-sm,
+	.pull-two-thirds-sm,
+	.pull-fourth-sm,
+	.pull-three-fourths-sm {
+		left: auto;
+	}
+
+	.push-half-sm {
+		left: 50%;
+	}
+
+	.pull-half-sm {
+		right: 50%;
+	}
+
+	.push-third-sm {
+		left: 33.33333%;
+	}
+
+	.pull-third-sm {
+		right: 33.33333%;
+	}
+
+	.push-fourth-sm {
+		left: 25%;
+	}
+
+	.pull-fourth-sm {
+		right: 25%;
+	}
+
+	.push-three-fourths-sm {
+		left: 75%;
+	}
+
+	.pull-three-fourths-sm {
+		right: 75%;
+	}
+
+}

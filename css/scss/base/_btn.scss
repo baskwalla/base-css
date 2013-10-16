@@ -1,0 +1,42 @@
+// http://www.colmtuite.com/
+
+button {
+	position: relative;
+	background: transparent;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: inherit;
+	font: inherit;
+	display: inline-block; // Make element block level
+	line-height: normal;
+	-webkit-appearance: none; // Remove webkit styling 
+	white-space: nowrap; // Prevent text wrapping
+	vertical-align: middle; // Align button correctly
+	cursor: pointer; // Pointer hover cursor
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none; // Prevent text selection
+	text-transform: none;
+}
+
+button:hover,
+button:focus,
+button:active {
+	text-decoration: none;
+}
+
+button:disabled,
+button[disabled] {
+	cursor: default;
+}
+
+// Remove inner focus border
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}

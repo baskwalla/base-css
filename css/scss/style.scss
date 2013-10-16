@@ -1,0 +1,11 @@
+// Base includes
+// This is base css without any styling
+@import "base/normalize.scss";
+@import "base/base.scss";
+@import "base/btn.scss";
+
+// Style includes
+// This is the styling CSS
+@import "style/grid.scss";
+@import "style/btn.scss";
+@import "style/modules.scss";
